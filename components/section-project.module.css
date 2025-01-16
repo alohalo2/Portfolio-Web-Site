@@ -1,0 +1,47 @@
+.projectBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 3rem;
+}
+
+.projectHeader h2,
+.projectHeader p {
+    text-align: center;
+}
+
+.projectHeader p {
+    color: #777777;
+}
+
+.projectContentLeft {
+    width: 40%;
+}
+
+.projectContentRight {
+    width: 60%;
+}
+
+.projectContentRight span {
+    display: inline-block;
+    width: 9rem;
+}
+
+.projectDescription {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.projectContentBox {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}

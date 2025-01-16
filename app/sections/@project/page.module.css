@@ -1,0 +1,9 @@
+.projectSection {
+    width: 100%;
+    background-color: #303AFF;
+}
+
+.projectSection h1 {
+    color: white;
+    text-align: center;
+}

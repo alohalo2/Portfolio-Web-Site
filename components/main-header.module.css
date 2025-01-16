@@ -1,0 +1,21 @@
+.mainHeader {
+    padding: 0 5rem;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mainHeader h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
