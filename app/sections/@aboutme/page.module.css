@@ -1,7 +1,3 @@
-.totalBox {
-
-}
-
 .totalBox section {
     display: flex;
     flex-direction: column;
@@ -14,7 +10,8 @@
     background-color: #9DCEFF;
     border-radius: 20px;
     padding: 2rem;
-    width: 80%;
+    width: 60%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.16), 0 20px 40px rgba(0, 0, 0, 0.01);
 }
 
 .whiteBox {
@@ -25,5 +22,30 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 1;
-    height: 250px;
+}
+
+.whiteBox p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.textBox {
+    border-bottom: 2px solid #b6b6b6;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+.selfInformation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.selfInformation h3 {
+    margin-bottom: 1rem;
+}
+
+
+.selfInformation h3,
+.selfInformation p {
+    text-align: center;
 }

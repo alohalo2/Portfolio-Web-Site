@@ -4,6 +4,7 @@ const archiving = [
         title: "Github",
         url: "https://github.com/alohalo2",
         urlAlias: "Github",
+        slug: "소스코드 저장소입니다.",
         image: "/images/github_icon.svg",
         contents: [
             "이 프로젝트는 React와 Next.js로 구축되었습니다.",
@@ -17,6 +18,7 @@ const archiving = [
         title: "Notion Note",
         url: "https://seen-reminder-ab4.notion.site/My-Develop-Note-3d3dab5d92f940e9ab73092cac6ffaa0?pvs=4",
         urlAlias: "Notion Note",
+        slug: "개발 과정의 핵심과 배운 점을 기록한 노트입니다.",
         image: "/images/notion_icon.svg",
         contents: [
             "이 프로젝트는 AWS Lambda와 DynamoDB를 사용하여 서버리스 아키텍처로 설계되었습니다.",
@@ -30,6 +32,7 @@ const archiving = [
         title: "Notion portfolio",
         url: "https://seen-reminder-ab4.notion.site/13e049c7252c80019f16faccc9b9d4a7?pvs=4",
         urlAlias: "Notion Portfolio",
+        slug: "노션으로 만든 포트폴리오입니다.",
         image: "/images/notion_icon.svg",
         contents: [
             "블록체인 기술을 활용하여 안전한 데이터 저장 및 전송.",

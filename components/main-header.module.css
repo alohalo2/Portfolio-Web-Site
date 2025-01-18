@@ -4,8 +4,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    background-color: rgba(239, 247, 255, 0.7);
+    z-index: 1000;
 }
 
 .mainHeader h2 {
@@ -13,9 +16,27 @@
     font-weight: bold;
 }
 
+.mainHeader h2 a {
+    transition: all 0.3s ease-in-out;
+}
+
+.mainHeader h2 a:hover,
+.mainHeader h2 a:active {
+    color: #303AFF;
+}
+
 .nav {
     display: flex;
     gap: 1rem;
     font-weight: bold;
     font-size: 20px;
+}
+
+.nav a {
+    transition: all 0.3s ease-in-out;
+}
+
+.nav a:hover,
+.nav a:active {
+    color: #303AFF;
 }
