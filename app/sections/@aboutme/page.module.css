@@ -1,0 +1,29 @@
+.totalBox {
+
+}
+
+.totalBox section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.colorBox {
+    background-color: #9DCEFF;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 80%;
+}
+
+.whiteBox {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    height: 250px;
+}

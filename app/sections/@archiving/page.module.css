@@ -1,0 +1,16 @@
+.totalBox {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.totalBox h1 {
+    text-align: center;
+}
+
+.contentsBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+
+}

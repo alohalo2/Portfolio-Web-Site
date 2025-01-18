@@ -1,0 +1,62 @@
+.colorBox {
+    background-color: #012675;
+    border-radius: 20px;
+    padding: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.colorBox:hover,
+.colorBox:active {
+    transform: scale(1.03);
+}
+
+.whiteBox {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    height: 250px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.headerContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+}
+
+.headerContents h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.headerContents a {
+    color: #253BFF;
+}
+
+.headerContents p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.headerContents span {
+    display: inline-block;
+    width: 3rem;
+    font-size: 16px;
+}
+
+
+.contents li {
+    list-style-position: inside;
+    margin-left: 0.7rem;
+}
