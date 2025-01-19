@@ -7,7 +7,7 @@
     border-radius: 20px;
     margin: auto;
     margin-bottom: 2rem;
-    padding: 3rem;
+    padding: 4rem;
 }
 
 .projectHeader h2,
@@ -20,16 +20,21 @@
 }
 
 .projectContentLeft {
-    width: 40%;
+    width: 50%;
 }
 
 .projectContentRight {
-    width: 60%;
+    width: 50%;
 }
 
-.projectContentRight span {
+.projectSlug span {
     display: inline-block;
     width: 9rem;
+}
+
+.projectContentRight a {
+    color: #253BFF;
+    font-weight: 600;
 }
 
 .projectDescription {

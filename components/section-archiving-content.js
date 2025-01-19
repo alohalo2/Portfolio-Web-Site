@@ -6,7 +6,7 @@ export default function ArchivingContent({ archiving }) {
     return (
         <div className={classes.colorBox}>
             <div className={classes.whiteBox}>
-                <div className={classes.header}>
+                <header className={classes.header}>
                     {/* 동적 이미지 렌더링 */}
                     <Image src={archiving.image} alt={`${archiving.title} Icon`} width={60} height={60} />
                     <div className={classes.headerContents}>
@@ -19,16 +19,18 @@ export default function ArchivingContent({ archiving }) {
                             </Link>
                         </p>
                     </div>
-                </div>
-                <div>
-                    <p>{archiving.slug}</p>
-                </div>
-                <ul className={classes.contents}>
-                    {/* 동적 리스트 렌더링 */}
-                    {archiving.contents.map((content, idx) => (
-                        <li key={idx}>{content}</li>
-                    ))}
-                </ul>
+                </header>
+                <main>
+                    <div>
+                        <p><strong>{archiving.slug}</strong></p>
+                    </div>
+                    <ul className={classes.contents}>
+                        {/* 동적 리스트 렌더링 */}
+                        {archiving.contents.map((content, idx) => (
+                            <li key={idx}>{content}</li>
+                        ))}
+                    </ul>
+                </main>
             </div>
         </div>
     );

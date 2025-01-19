@@ -7,7 +7,8 @@
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     position: fixed;
     width: 100%;
-    background-color: rgba(239, 247, 255, 0.7);
+    background-color: rgba(246, 247, 255, 0.7);
+    /* background-color: rgba(239, 247, 255, 0.7); */
     z-index: 1000;
 }
 

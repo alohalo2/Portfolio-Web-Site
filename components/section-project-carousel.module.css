@@ -1,0 +1,43 @@
+.carouselBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.carousel {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    object-fit: cover
+}
+
+.imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.prevButton,
+.nextButton {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+}
+
+.prevButton {
+}
+
+.nextButton {
+}
+
+.prevButton:hover,
+.nextButton:hover {
+    background-color: rgba(66, 95, 225, 0.2);
+    border-radius: 10px;
+}

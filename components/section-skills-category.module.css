@@ -1,0 +1,89 @@
+.categorySection {
+    margin-bottom: 40px;
+    padding: 4rem;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 20px rgba(66, 95, 225, 0.2);
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.categoryHeader {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    color: black;
+    text-align: left;
+}
+
+.categoryHeader h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.categoryHeader hr {
+    border: none;
+    border-top: 2px solid white;
+    margin: 8px 0 0;
+}
+
+.skillsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.skillCard {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.skillImage {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+
+.skillCard li {
+    margin: 0;
+    list-style-position: inside;
+}
+
+.skillImagesBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillImagesBox p {
+    font-weight: 600;
+}
+
+.skillImages {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* 이미지 간격 */
+    width: 7rem;
+}
+
+.imageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillImage {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 4px;
+    background-color: #fff;
+}
