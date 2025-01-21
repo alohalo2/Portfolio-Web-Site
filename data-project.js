@@ -4,11 +4,35 @@ const projects = [
         name: "Portfolio Web Site",
         duration: "2024.12 - 2025.01",
         participant: "1명",
-        description: ["A personal portfolio site to showcase my work."],
+        description: [
+            <span key="1">
+                <strong>Portfolio Web Site</strong>는 <strong>Next.js</strong>와 <strong>CSS Modules</strong>를 사용해
+                개발된 개인 포트폴리오 사이트로, 프로젝트와 커리어 정보를 효율적으로 시각화하여
+                <strong> 자신만의 개발 여정</strong>을 표현하는 데 중점을 두었습니다.
+            </span>,
+            <span key="2">
+                사용자는 포트폴리오 사이트에서 <strong>About Me, Skills, Projects</strong> 및 <strong>Career</strong>
+                섹션을 탐색하며 상세한 프로젝트 정보와 기술 스택을 확인할 수 있습니다. 모든 콘텐츠는 구조적으로 구성되어
+                사용자 경험을 강화합니다.
+            </span>,
+            <span key="3">
+                <strong>Vercel</strong>을 통해 배포된 이 사이트는 <strong>반응형 디자인</strong>을 구현하여 다양한
+                디바이스 환경에서 최적의 화면을 제공합니다. 또한, 최신 웹 기술을 적용하여 성능과 사용자 접근성을 모두
+                고려했습니다.
+            </span>,
+        ],
         function: "포트폴리오",
-        technologies: ["Next.js", "CSS Modules"],
-        link: "https://example.com/portfolio",
-        images: ["/images/carousel/portfolio_1.png", "/images/carousel/portfolio_2.png"], // Placeholder for Portfolio images
+        technologies: ["Next.js", "CSS Modules", "Vercel"],
+        link: "https://portfolio-web-site-three.vercel.app/",
+        linkAlias: "Current Site",
+        images: [
+            "/images/carousel/portfolio_image01.png",
+            "/images/carousel/portfolio_image02.png",
+            "/images/carousel/portfolio_image03.png",
+            "/images/carousel/portfolio_image04.png",
+            "/images/carousel/portfolio_image05.png",
+            "/images/carousel/portfolio_image06.png",
+        ],
     },
     {
         id: 2,

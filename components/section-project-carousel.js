@@ -15,11 +15,11 @@ export default function ImageCarousel({ images }) {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
     };
 
-    // // 자동 슬라이드 기능
-    // useEffect(() => {
-    //     const interval = setInterval(nextSlide, 3000); // 3초마다 슬라이드 변경
-    //     return () => clearInterval(interval); // 컴포넌트 언마운트 시 인터벌 제거
-    // }, [images]); // `images`가 변경될 때만 재실행
+    // 자동 슬라이드 기능
+    useEffect(() => {
+        const interval = setInterval(nextSlide, 3000); // 3초마다 슬라이드 변경
+        return () => clearInterval(interval); // 컴포넌트 언마운트 시 인터벌 제거
+    }, [images]); // `images`가 변경될 때만 재실행
 
     return (
         <div className={classes.carouselBox}>

@@ -18,7 +18,7 @@ const skills = [
         image2: "/images/typescript_icon.svg",
         description: [
             "async await 문법으로 비동기 처리를 할 수 있습니다.",
-            "기본적인 변수 및 함수의 Type 설정할 수 있습니다.",
+            "변수 및 함수의 Type 설정할 수 있습니다.",
         ],
     },
     {
@@ -84,7 +84,7 @@ const skills = [
         image1: "/images/notion_icon.svg",
         image2: null, // 두 번째 이미지 없음
         description: [
-            "기본적인 포트폴리오, 노트로 작업 가능합니다.",
+            "포트폴리오, 노트로 작업 가능합니다.",
             "일정 관리 가능합니다.",
         ],
     },

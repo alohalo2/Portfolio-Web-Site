@@ -20,11 +20,14 @@
 }
 
 .projectContentLeft {
-    width: 50%;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 3rem;
 }
 
 .projectContentRight {
-    width: 50%;
+    margin: auto;
+    width: 80%;
 }
 
 .projectSlug span {
@@ -46,7 +49,5 @@
 .projectContentBox {
     width: 100%;
     margin: auto;
-    display: flex;
-    justify-content: center;
     gap: 2rem;
 }

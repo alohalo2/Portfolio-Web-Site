@@ -1,0 +1,54 @@
+.careerBox {
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 5rem;
+}
+
+.imageBox {
+    width: 20rem;
+    border-right: 1px solid #dcdcdc;
+}
+
+.imageBox img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 1px solid #dcdcdc;
+    margin-left: 1rem;
+}
+
+.careerHeader {
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.careerHeaderTitle {
+    margin-bottom: 2rem;
+}
+
+.duration {
+    color: #767676;
+}
+
+.introduction {
+    margin-bottom: 1.5rem;
+}
+
+.careerMain li {
+    list-style-position: inside;
+}
+
+.projectsBox {
+    margin-bottom: 2rem;
+}
+
+.projectsTitle {
+    margin-bottom: 1.5rem;
+}
+
+.projectsTitle h3 {
+    font-size: 22px;
+}
