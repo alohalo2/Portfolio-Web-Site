@@ -6,7 +6,7 @@ const projects = [
         participant: "1명",
         description: [
             <span key="1">
-                <strong>Portfolio Web Site</strong>는 <strong>Next.js</strong>와 <strong>CSS Modules</strong>를 사용해
+                <strong>Portfolio Web Site</strong>는 Next.js와 CSS Modules를 사용해
                 개발된 개인 포트폴리오 사이트로, 프로젝트와 커리어 정보를 효율적으로 시각화하여
                 <strong> 자신만의 개발 여정</strong>을 표현하는 데 중점을 두었습니다.
             </span>,
@@ -41,9 +41,8 @@ const projects = [
         participant: "5명",
         description: [
             <span key="1">
-                <strong>BIBID</strong>는 네이버 클라우드 플랫폼, WebSocket, OBS, Redis를 활용해 구축한
-                <strong> 실시간 경매 사이트</strong>로, <strong>실시간 스트리밍과 채팅</strong> 기능을 통해 박진감
-                넘치는 경매 경험을 제공합니다.
+                <strong>BIBID</strong>는 네이버 클라우드 플랫폼, WebSocket, OBS, Redis를 활용해 구축한 실시간 경매
+                사이트로, <strong>실시간 스트리밍과 채팅 기능</strong>을 통해 박진감 넘치는 경매 경험을 제공합니다.
             </span>,
             <span key="2">
                 프로젝트 초기에는 React 컴포넌트 구조와 상태 관리의 복잡성, CSS와 MUI 스타일 충돌 문제로 어려움을
@@ -81,23 +80,19 @@ const projects = [
         description: [
             <span key="1">
                 <strong>COMMA</strong>는 사용자가 클릭과 드래그만으로 손쉽게 <strong>여행 일정을 계획</strong>할 수 있는
-                웹사이트로,
-                <strong>여행 계획과 정보를 공유할 수 있는 커뮤니티 기능</strong>을 제공합니다.
-                <strong>Daum Address API</strong>를 활용해 <strong>사용자 프로필 수정 및 주소 검색</strong> 기능을,
-                <strong>Kakao Map API</strong>를 통해 <strong>여행 정보 검색 및 경로 계획</strong> 기능을 구현하여
+                웹사이트로, 여행 계획과 정보를 공유할 수 있는 커뮤니티 기능을 제공합니다. Daum Address API를 활용해
+                사용자 프로필 수정 및 주소 검색 기능을, Kakao Map API를 통해 여행 정보 검색 및 경로 계획기능을 구현하여
                 직관적이고 편리한 사용자 경험을 제공합니다.
             </span>,
             <span key="2">
                 프로젝트 초기에는 UI/UX 설계 경험 부족과 데이터 연동의 비효율성 같은 문제가 있었지만,
-                <strong>Figma를 활용한 와이어프레임 설계</strong>와 <strong>AJAX 및 MyBatis</strong>로 데이터 처리를
-                최적화하며 문제를 해결했습니다. 또한, <strong>Daum Address API</strong>의 주소 변환 로직을
-                커스터마이징하여 안정적인 기능을 제공할 수 있었습니다.
+                <strong>Figma를 활용한 와이어프레임 설계</strong>와 AJAX 및 MyBatis로{" "}
+                <strong>데이터 처리를 최적화</strong>하며 문제를 해결했습니다.
             </span>,
             <span key="3">
-                이 프로젝트를 통해 <strong>직관적인 UI/UX 설계</strong>, <strong>실시간 데이터 연동</strong>,
-                <strong>체계적인 Git 관리</strong> 등을 실현하며 사용자 편의성을 극대화하였습니다.
-                <strong>여행 기록, 계획, 예약 내역 관리</strong> 기능으로 사용자 경험을 크게 향상시켰으며, 프로젝트 진행
-                과정에서 <strong>협업 및 문제 해결 역량</strong>을 강화할 수 있었습니다.
+                이 프로젝트를 통해 직관적인 UI/UX 설계, 실시간 데이터 연동, 체계적인 Git 관리 등을 실현하며 사용자
+                편의성을 극대화하였습니다. 여행 기록, 계획, 예약 내역 관리 기능으로 사용자 경험을 크게 향상시켰으며,
+                프로젝트 진행 과정에서 <strong>협업 및 문제 해결 역량</strong>을 강화할 수 있었습니다.
             </span>,
         ],
         function: "여행 계획 지원 사이트",
