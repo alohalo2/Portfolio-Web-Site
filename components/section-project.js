@@ -40,7 +40,7 @@ export default function SectionProject() {
                                 <p>
                                     <span>기술스택:</span>
                                     {project.technologies.join(", ")}
-                                </p>
+                                </p>   
                             </div>
                         </div>
                     </main>
