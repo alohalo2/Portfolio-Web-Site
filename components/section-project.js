@@ -17,7 +17,7 @@ export default function SectionProject() {
                     </header>
                     <main className={classes.projectContentBox}>
                         <div className={classes.projectContentLeft}>
-                            {/* 이미지 캐러셀 */}
+                            {/* 이미지 캐러셀  */}
                             <ImageCarousel images={project.images} />
                         </div>
                         <div className={classes.projectContentRight}>
@@ -40,7 +40,7 @@ export default function SectionProject() {
                                 <p>
                                     <span>기술스택:</span>
                                     {project.technologies.join(", ")}
-                                </p>   
+                                </p>
                             </div>
                         </div>
                     </main>
