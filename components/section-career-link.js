@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import classes from "./section-career-link.module.css";
+
 export default function SectionCareerLink({ highlight }) {
     const regex = /\[(.+?)\]\((.+?)\)/; // 링크를 감지하는 정규식 (예: [텍스트](링크))
     const match = highlight.match(regex);
@@ -10,7 +12,7 @@ export default function SectionCareerLink({ highlight }) {
         return (
             <>
                 {highlight.split(regex)[0]}{" "}
-                <Link href={url} target="_blank" rel="noopener noreferrer">
+                <Link href={url} target="_blank" rel="noopener noreferrer" className={classes.link}>
                     {text}
                 </Link>
             </>
