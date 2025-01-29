@@ -9,7 +9,7 @@ export default function SectionCareer() {
         <>
             {careers.map((career) => (
                 <div key={career.id} className={classes.careerBox}>
-                    {/* 이미지 렌더링 */}
+                    {/* 이미지 렌더링    */}
                     <div className={classes.imageBox}>
                         <Image src={career.logo} alt={`${career.company} 로고`} width={100} height={100} />
                     </div>
