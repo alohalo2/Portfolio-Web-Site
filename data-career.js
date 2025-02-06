@@ -15,9 +15,9 @@ const careers = [
                 title: "교육 주요 학습 내용",
                 duration: "교육 기간 내",
                 highlights: [
-                    "데이터베이스 운영 학습: <strong>Oracle</strong>, <strong>MySQL</strong>을 사용하여 데이터 관리, 쿼리 작성 및 설계를 익힘.",
-                    "버전 관리 및 저장소 관리 학습: <strong>Git</strong>과 <strong>GitHub</strong>을 통해 브랜치 관리, Pull Request 및 협업 프로젝트 경험.",
-                    "CI/CD 및 배포 자동화 실습: <strong>Jenkins</strong>와 <strong>Docker</strong>로 CI/CD 파이프라인 설정, Docker 이미지 생성 및 서버 배포.",
+                    "데이터베이스 운영 학습: Oracle, MySQL을 사용하여 <strong>데이터 관리, 쿼리 작성 및 설계</strong>를 익힘.",
+                    "버전 관리 및 저장소 관리 학습: Git과 GitHub를 통해 <strong>브랜치 관리 및 협업 프로젝트 경험</strong>.",
+                    "CI/CD 및 배포 자동화 실습: Jenkins와 Docker로 <strong>CI/CD 파이프라인 설정, Docker 이미지 생성 및 서버 배포</strong>.",
                 ],
             },
             {
